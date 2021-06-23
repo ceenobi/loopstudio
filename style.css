@@ -20,7 +20,7 @@
 .back {
   background-image: url(./images/image-hero.jpg);
   height: 80vh;
-  width:100vw;
+  width: 100vw;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -38,12 +38,12 @@
 }
 
 .ion-icon {
-  color:white;
+  color: white;
 }
 
-.f-text3{
+.f-text3 {
   font-family: josefin sans;
-  font-size: 40px!important;
+  font-size: 40px !important;
 }
 
 .nav-menutxt {
@@ -58,17 +58,14 @@
 .box {
   border: 1px solid white;
   object-fit: contain;
+  width: fit-content;
 }
 
 .box-wrap {
-  margin-top: 7rem;
-
+  margin-top: 9rem;
 }
 
 /* end header */
-
-
-
 
 /* main */
 
@@ -124,8 +121,6 @@ a:hover {
 
 /* end main */
 
-
-
 /* media querry */
 
 @media (min-width: 992px) {
@@ -135,7 +130,6 @@ a:hover {
     background-size: cover;
     background-repeat: no-repeat;
   }
-
 
   .box {
     width: 39%;
@@ -175,7 +169,6 @@ a:hover {
   .click {
     width: 25%;
     margin-left: auto !important;
-    /* padding-left: 6rem!important; */
   }
 
   .bottom-left2 {
@@ -191,38 +184,79 @@ a:hover {
   .footer {
     margin-top: 5rem !important;
   }
-
 }
 
-
-@media (max-width: 768px)  {
+@media (min-width: 790px) and (max-width: 1024px) {
   .f-text3 {
-  font-size: 35px !important;
-  margin: 1rem!important;
-}
+    font-size: 80px !important;
+    margin: 6rem !important;
+  }
+  .box-wrap {
+    margin-top: 8rem !important;
+  }
+  .back {
+    height: 70vh;
+  }
+  .box {
+    width: 70%;
+  }
 }
 
-@media (max-width: 360px) {
+@media (min-width: 576px) and (max-width: 768px) {
+  .f-text3 {
+    font-size: 70px !important;
+    margin: 4rem !important;
+  }
+  .box-wrap {
+    margin-top: 10rem !important;
+  }
+}
+
+@media (min-width: 540px) and (max-width: 767px) {
+  .f-text3 {
+    font-size: 40px !important;
+    margin: 5rem !important;
+  }
+  .box-wrap {
+    margin-top: 8rem !important;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 414px) {
+  .f-text2 {
+    font-size: 45px !important;
+    margin: 4 !important;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 373px){
   .logo-text {
     font-size: 20px;
   }
-
   .box-wrap {
     margin-top: 6rem;
   }
-
   .f-text2 {
-    font-size: 30px !important;
+    font-size: 40px !important;
     margin: 4 !important;
   }
+}
+
+@media (min-width: 315px) and (max-width: 350px) {
+  .f-text {
+    font-size: 30px !important;
+  }
+  .box-wrap {
+    margin-top: 5rem !important;
+  }
+  
 }
 
 @media (max-width: 280px) {
   .f-text {
     font-size: 25px !important;
   }
-
-  .but {
-    width: auto !important;
+  .box-wrap {
+    margin-top: 7rem !important;
   }
 }
